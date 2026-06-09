@@ -1,0 +1,13 @@
+# ☕ Coffee Analytics: Inteligencia de Negocios con SQL y Python
+
+Este repositorio contiene una solución integral  orientada a la gestión comercial de una cafetería de especialidad y tostaduría. El proyecto demuestra la capacidad de diseñar bases de datos relacionales, poblar datos de transacciones, operar cálculos analíticos y automatizar reportes visuales en Python.
+
+# 🛠️ Stack Tecnológico
+* **Motor de Base de Datos:** MySQL Server
+* **Entorno de Desarrollo:** Visual Studio Code & MySQL Workbench
+* **Librerías de Conectividad:** SQLAlchemy, PyMySQL
+* **Procesamiento y Visualización:** Pandas, Seaborn, Matplotlib
+
+# Estructura de los Archivos
+* `cafeteria.sql`: Script nativo de base de datos. Implementa el esquema relacional (`marcas`, `productos`, `ventas`), restricciones de claves foráneas para asegurar la integridad y consultas complejas (incluyendo un formateador dinámico de precios y unidades usando estructuras condicionales `CASE WHEN`).
+* `dashboard_cafeteria.py`: Script automatizado en Python. Genera un puente seguro con el servidor local de MySQL, extrae el flujo financiero calculando la facturación total y renderiza dashboards ejecutivos para el control de caja.
